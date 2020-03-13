@@ -12,7 +12,8 @@
         <activity
             android:name=".EditNote"
             android:label="@string/title_activity_edit_note"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize"/>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
